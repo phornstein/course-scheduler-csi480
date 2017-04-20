@@ -17,6 +17,10 @@ public class Course {
 		this.time = time;
 	}
 	
+	public Course() {
+		
+	}
+	
 	public void setCourseID(String courseID) {
 		this.courseID = courseID;
 	}
@@ -64,5 +68,6 @@ public class Course {
 		return all;
 		
 	}
+
 }
 
